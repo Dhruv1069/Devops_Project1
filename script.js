@@ -2,14 +2,14 @@ const questions = [
     {
         question: "Largest animal in the world?",
         answers: [
-            { text: "Russia", correct: false },
-            { text: "India", correct: false },
-            { text: "China", correct: false },
-            { text: "Vatican City", correct: true }
+            { text: "Elephant", correct: false },
+            { text: "Blue whale", correct: true },
+            { text: "Shark", correct: false },
+            { text: "Hamster", correct: false }
         ]
     },
     {
-        question: "Which is the most populated country in the world?",
+        question: "Largest country in the world?",
         answers: [
             { text: "Russia", correct: true },
             { text: "Nepal", correct: false },
@@ -36,7 +36,7 @@ const questions = [
         ]
     },
     {
-        question: "Which is the most populated country in the world?",
+        question: "Smallest country in the world?",
         answers: [
             { text: "Russia", correct: false },
             { text: "India", correct: false },
@@ -56,10 +56,10 @@ const questions = [
     {
         question: "World's top cell phone brand in the world?",
         answers: [
-            { text: "Russia", correct: false },
-            { text: "India", correct: false },
-            { text: "China", correct: false },
-            { text: "Vatican City", correct: true }
+            { text: "samsung", correct: false },
+            { text: "Apple", correct: true },
+            { text: "MI", correct: false },
+            { text: "VIVO", correct: false }
         ]
     },
     {
@@ -72,12 +72,12 @@ const questions = [
         ]
     },
     {
-        question: "Which is the most populated country in the world?",
+        question: "Largest continent in the world?",
         answers: [
-            { text: "Russia", correct: false },
-            { text: "India", correct: false },
-            { text: "China", correct: false },
-            { text: "Vatican City", correct: true }
+            { text: "Australia", correct: false },
+            { text: "Europe", correct: false },
+            { text: "Asia", correct: true },
+            { text: "North America", correct: false }
         ]
     },
     {
