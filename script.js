@@ -150,4 +150,4 @@ nextButton.addEventListener("click", () => {
     }
 });
 
-startQuiz();
+startQuiz();    
