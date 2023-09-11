@@ -123,6 +123,14 @@ function showQuestion() {
     });
 }
 
+
+function resetState() {
+    nextButton.style.display = "none";
+    while (answerButtons.firstChild) {
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
+}
+
 function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -158,7 +166,6 @@ function handleNextButton() {
         showScore();
     }
 }
-
 
 nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < questions.length) {
